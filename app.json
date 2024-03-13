@@ -1,7 +1,7 @@
 {
-    "name": "𓌹⦓〝𝕋𝕆𝕏𝕀ℂ𝕆 𝕄𝕌𝕊𝕀ℂ〞⦔𓌺 ",
+    "name": "‹ 𝐃𝐄𝐕.𝐒𝐎𝐔𝐑𝐂𝐄.𝐎𝐌𝐀𝐑 ›",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/4a1e93b4660b7de2130c5.jpg",
+    "logo": "https://telegra.ph/file/09d9ee4d37a065e62396b.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -38,7 +38,7 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @C_5_bbot on Telegram.",
+        "description": "A Pyrogram v2 String Session from omar on Telegram.",
         "value": "",
         "required": true
       },
