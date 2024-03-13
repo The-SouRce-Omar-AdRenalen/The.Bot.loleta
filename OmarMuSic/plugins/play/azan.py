@@ -2,16 +2,16 @@ import asyncio
 from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.raw import types
-from ZeMusic import app
+from OmarMuSic import app
 import random
 from datetime import datetime
 import requests
 import pytz
-from ZeMusic.core.call import Mody
+from OmarMuSic.core.call import Mody
 from pytgcalls import PyTgCalls, StreamType
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
-from ZeMusic.core.call import Mody
-from ZeMusic.utils.database import *
+from OmarMuSic.core.call import Mody
+from OmarMuSic.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError,AlreadyJoinedError)
 from pyrogram.errors import (
     ChatAdminRequired,
@@ -45,7 +45,7 @@ async def kill():
 
 async def play(i):
   assistant = await group_assistant(Anon,i)
-  file_path = "./ZeMusic/assets/azan.m4a"
+  file_path = "./OmarMuSic/assets/azan.m4a"
   stream = AudioPiped(file_path, audio_parameters=HighQualityAudio())
   try:
       await assistant.join_group_call(
