@@ -92,7 +92,7 @@ async def ahrof(client: Client, message: Message):
         
         
         
-        txt = [
+txt = [
 
             "هل تعرضت لغدر في حياتك؟",
             
