@@ -1,7 +1,7 @@
 {
-    "name": "- ع ُ ــمر أدرينألين 🎸 ⋅",
+    "name": "𓌹⦓〝𝕋𝕆𝕏𝕀ℂ𝕆 𝕄𝕌𝕊𝕀ℂ〞⦔𓌺 ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/09d9ee4d37a065e62396b.jpg",
+    "logo": "https://telegra.ph/file/4a1e93b4660b7de2130c5.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -38,8 +38,8 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "",
-        "value": "᥆ꪔᥲ️ᖇ ᥲ️ժᖇᥱꪀᥲ️ᥣᥱꪀ"
+        "description": "A Pyrogram v2 String Session from @C_5_bbot on Telegram.",
+        "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
