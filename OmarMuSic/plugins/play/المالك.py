@@ -17,35 +17,29 @@ from pyrogram.errors import FloodWait
 
 
 
-
-
-
-
-@app.on_message(filters.command(["السورس ","سورس","مصنع"], ""), group=221212)
+@app.on_message(filters.command([" السورس ","سورس"], ""), group=221212)
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/09d9ee4d37a065e62396b.jpg",
-        caption=f"""╭── • ⌯ [𝐃𝐄𝐕.𝐒𝐎𝐔𝐑𝐂𝐄.𝐎𝐌𝐀𝐑](https://t.me/DEV_ADRENALEN) ⌯ • ──╮\n• ⌯ [𝐒𝐔𝐏𝐏𝐔𝐑𝐓.𝐒𝐎𝐔𝐑𝐂𝐄](https://t.me/BaR_AdRenalen) ⌯ •\n • ⌯ [𝐂𝐇𝐀𝐍𝐍𝐄𝐋.𝐒𝐎𝐔𝐑𝐂𝐄](https://t.me/WA_AdRenalen) ⌯ •\n• ⌯ [𝐁𝐎𝐓.𝐄𝐋𝐒𝐎𝐔𝐑𝐂𝐄](https://t.me/Xx_MUOSIC_BOT)⌯ •\n╰── • ⌯ [𝐃𝐄𝐕.𝐒𝐎𝐔𝐑𝐂𝐄.𝐎𝐌𝐀𝐑](https://t.me/DEV_ADRENALEN) ⌯ • ──╯""",
-                reply_markup=InlineKeyboardMarkup(
-        [
+        photo=f"https://telegra.ph/file/cfdf272d1eb8fff6f0c5b.jpg",
+        caption=f"""╭═★⊷⌯⧼[𝐒𝐨𝐮𝐑𝐜𝐞𝐓𝐨𝐱𝐢𝐂](https://t.me/CMG_5S)⧽⌯⊶★═╮\n★‹ [𝐒𝐨𝐮𝐑𝐜𝐞𝐓𝐨𝐱𝐢𝐂](https://t.me/CMG_5S)\n★‹ [𝐀𝐒𝗞 𝗧𝐎 𝐌𝗘](https://t.me/M_Q_ll)\n★‹ [𝐓𝐨𝐱𝐢𝐂](https://t.me/M_Q_ll)\n★‹ [𝐓𝐎.𝐌𝐄](https://t.me/GROUP_CAPTAIN)\n╰═★⊷⌯⧼[𝐒𝐨𝐮𝐑𝐜𝐞𝐓𝐨𝐱𝐢𝐂](https://t.me/CMG_5S)⧽⌯⊶★═╯""",
+        reply_markup=InlineKeyboardMarkup(
             [
+                [
                     InlineKeyboardButton(
-                        "‹ 𝐃𝐄𝐕.𝐒𝐎𝐔𝐑𝐂𝐄.𝐎𝐌𝐀𝐑 › ", url=f"https://t.me/DEV_ADRENALEN"),
+                        "𝐓𝐨𝐱𝐢𝐂", url=f"https://t.me/M_Q_ll"), 
                 ],[
                     InlineKeyboardButton(
-                        "‹ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ›", url=f"https://t.me/WA_AdRenalen"), 
-                    InlineKeyboardButton(
-                        "‹ 𝐒𝐔𝐏𝐏𝐔𝐑𝐓 ›", url=f"https://t.me/BAR_ADRENALEN"),
+                        "𝐒𝐨𝐮𝐑𝐜𝐞𝐓𝐨𝐱𝐢𝐂", url=f"https://t.me/CMG_5S"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"http://t.me/Xx_MUOSIC_BOT?startgroup=new"),
+                        "𝒂𝒅𝒅 𝒎𝒆 ", url=f"https://t.me/KIMY0Bot?startgroup=true"),
+                ],
+
             ]
-        ]
-         ),
-     )
-    
 
+        ),
 
+    )
 @app.on_message(filters.command(["المالك", "صاحب الخرابه", "المنشي"], ""), group=222)
 async def ownner(client: Client, message: Message):
     x = []
