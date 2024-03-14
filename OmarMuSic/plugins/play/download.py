@@ -63,13 +63,9 @@ async def song_downloader(client, message: Message):
                 [
                     InlineKeyboardButton(
                         "• ⌯ 𝙳𝙴𝚅.𝚂𝙾𝚄𝚁𝙲𝙴 ⌯ •", url=f"https://t.me/DEV_ADRENALEN"), 
-                 ],
+             ] ],
 
-            ]
-
-        ),
-
-    )
+        )"
 
         host = str(info_dict["uploader"])
         secmul, dur, dur_arr = 1, 0, duration.split(":")
