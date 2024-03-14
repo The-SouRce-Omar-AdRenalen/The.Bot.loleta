@@ -3,7 +3,7 @@
 #𝚂𝚄𝙿𝙿𝙾𝚁𝚃 : @BAR_ADRENALEN
 #Omar AdRenalen تم التعديل بواسطة 🎸 ⋅
 
- from pyrogram import filters, Client
+from pyrogram import filters, Client
 from OmarMuSic import app
 import asyncio
 from pyrogram.types import VideoChatEnded, Message
