@@ -37,7 +37,7 @@ async def strcall(client, message):
         await asyncio.sleep(5)
         await assistant.leave_group_call(message.chat.id)
     except NoActiveGroupCall:
-        await message.reply(f"سلامت نظرك الكول مش مفتوح اصلا 😂💘 ⋅"")
+        await message.reply(f"سلامت نظرك الكول مش مفتوح اصلا 😂💘 ⋅")
     except AlreadyJoinedError:
         text="- الحبايب الي ف الكول 🎸 ⋅\n"
         participants = await assistant.get_participants(message.chat.id)
