@@ -57,15 +57,7 @@ async def song_downloader(client, message: Message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"⌁ 𝙱𝙾𝚃 : @{app.username}
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        "• ⌯ 𝙳𝙴𝚅.𝚂𝙾𝚄𝚁𝙲𝙴 ⌯ •", url=f"https://t.me/DEV_ADRENALEN"), 
-             ] ],
-
-        )"
+        rep = f"⌁ 𝙱𝙾𝚃 : @{app.username}\n• ⌯ 𝙳𝙴𝚅.𝚂𝙾𝚄𝚁𝙲𝙴 ⌯ • : @DEV_ADRENALEN"
 
         host = str(info_dict["uploader"])
         secmul, dur, dur_arr = 1, 0, duration.split(":")
