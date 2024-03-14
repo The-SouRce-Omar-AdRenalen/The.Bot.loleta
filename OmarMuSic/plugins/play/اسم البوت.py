@@ -6,7 +6,7 @@
 import asyncio
 import random
 from pyrogram.types import (Message,InlineKeyboardButton,InlineKeyboardMarkup,CallbackQuery,ChatPrivileges)
-from pyrogram import filters, Client
+from pyrogram import filters
 from OmarMusic import app
 from config import *
 
