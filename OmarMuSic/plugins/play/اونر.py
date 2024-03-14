@@ -143,11 +143,7 @@ async def iddyyyd(client, message):
         ),
     )
 
-@app.on_message(command(["اسمي", "اسمي اي"]) & filters.group )
-async def vgdg(client: Client, message: Message):
-    await message.reply_text(
-        f"""- اسمك : {message.from_user.mention()} 🥹💘 ⋅""")  
-    
+
 #𝙲𝙷.𝚂𝙾𝚄𝚁𝙲𝙴 : @WA_ADRENALEN
 #𝙳𝙴𝚅 𝙰𝙳𝚁𝙴𝙽𝙰𝙻𝙴𝙽 : @DEV_ADRENALEN
 #𝚂𝚄𝙿𝙿𝙾𝚁𝚃 : @BAR_ADRENALEN
