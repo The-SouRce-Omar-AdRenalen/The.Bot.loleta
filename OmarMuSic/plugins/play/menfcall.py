@@ -58,10 +58,10 @@ async def strcall(client, message):
         await message.reply(f"يوجد خطأ ارجو المحاولة بعد دقيقة 🎸 ⋅")
         
     @app.on_message(filters.video_chat_started)
-async def brah(client, message):
+
        await message.reply(" الكول اتفتح هيرغو ويصدعونا 🎸 ⋅")
 @app.on_message(filters.video_chat_ended)
-async def brah2(client, message):
+async def brah(client, message):
     da = message.video_chat_ended.duration
     ma = divmod(da, 60)
     ho = divmod(ma[0], 60)
