@@ -1,16 +1,20 @@
-import os
+import asyncio
+import asyncio
+
+
 import random
-import requests
-from datetime import datetime
-from sys import version_info
-from time import time
-from pyrogram import Client, filters
-from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+
+
 from OmarMuSic import app
 
-from OmarMuSic.utils.decorators.admins import AdminActual
-from strings import get_command
-from strings.filters import command
+
+from pyrogram.types import (InlineKeyboardButton,
+
+
+                            InlineKeyboardMarkup, Message)
+
+
+from pyrogram import filters, Client
 
 
 
