@@ -13,33 +13,34 @@ from OmarMuSic.core.call import Mody
 from OmarMuSic.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError,AlreadyJoinedError)
 
-@app.on_message(filters.regex("^مين في الكول$"))
+@app.on_message(filters.regex("^مين في الكول$|^مين ف الكول$|^مين في كول$"))
 async def strcall(client, message):
     assistant = await group_assistant(Mody,message.chat.id)
     try:
         await assistant.join_group_call(message.chat.id, AudioPiped("./OmarMuSic/assets/call.mp3"), stream_type=StreamType().pulse_stream)
-        text="🔔 الاعضاء المتواجدين في الكول :\n\n"
+        text="- الحبايب الي ف الكول 🎸 ⋅\n"
         participants = await assistant.get_participants(message.chat.id)
         k =0
         for participant in participants:
             info = participant
             if info.muted == False:
-                mut="يتحدث 🗣 "
+                mut="بيتكلم 🗣 : {participant.volume}"
             else:
-                mut="ساكت 🔕 "
+                mut="ساكت 🔕 ⋅"
             user = await client.get_users(participant.user_id)
             k +=1
-            text +=f"{k}➤{user.mention}➤{mut}\n"
-        text += f"\nعددهم : {len(participants)}\n✔️"    
+            text +=f"{k} : {user.mention} : {mut}\n"
+        text += f"\nعددهم : {len(participants)}"    
         await message.reply(f"{text}")
         await asyncio.sleep(7)
         await assistant.leave_group_call(message.chat.id)
     except NoActiveGroupCall:
-        await message.reply(f"عمووووو الكول مش مفتوح اصلااا\n❌")
+        await message.reply(f"سلامت نظرك الكول مش مفتوح اصلا 😂💘 ⋅")
     except TelegramServerError:
-        await message.reply(f"ارسل الامر تاني في مشكله في سيرفر التلجرام\n❌")
+        await message.reply(f"يوجد خطأ ارجو المحاولة بعد دقيقة 🎸 ⋅")
+
     except AlreadyJoinedError:
-        text="🔔 الاعضاء المتواجدين في الكول :\n\n"
+        text="- الحبايب الي ف الكول 🎸 ⋅\n"
         participants = await assistant.get_participants(message.chat.id)
         k =0
         for participant in participants:
@@ -50,12 +51,12 @@ async def strcall(client, message):
                 mut="ساكت 🔕 "
             user = await client.get_users(participant.user_id)
             k +=1
-            text +=f"{k}➤{user.mention}➤{mut}\n"
-        text += f"\nعددهم : {len(participants)}\n✔️"    
+            text +=f"{k} : {user.mention} : {mut}\n"
+        text += f"\nعددهم : {len(participants)}"    
         await message.reply(f"{text}")
 @app.on_message(filters.video_chat_started)
 async def brah(client, message):
-       await message.reply(" بدأت المحادثة الصوتية 👤")
+       await message.reply("الكول اتفتح هيرغو ويصدعونا بقا 😂💘 ⋅")
 @app.on_message(filters.video_chat_ended)
 async def brah2(client, message):
     da = message.video_chat_ended.duration
