@@ -14,8 +14,7 @@ from OmarMuSic.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError,AlreadyJoinedError)
 
                      
-@app.on_message(filters.regex("^مين في الكول$|^مين ف الكول$|^مين في كول$"))
-async@app.on_message(filters.regex("^مين في الكول$"))
+@app.on_message(filters.regex("^مين في الكول$"))
 async def strcall(client, message):
     assistant = await group_assistant(Yukki,message.chat.id)
     try:
