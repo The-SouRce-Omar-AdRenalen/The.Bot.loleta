@@ -47,6 +47,98 @@ async def huhh(client: Client, message: Message):
         ]
          ),
      )
+
+@app.on_message(filters.command(["حمو المرازي","حمو"], ""), group=221212)
+async def huhh(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/71e9ee5da45196ec2a5b0.jpg",
+        caption=f"""• ⌯ 𝐃𝐄𝐕.𝐒𝐎𝐔𝐑𝐂𝐄.𝐎𝐌𝐀𝐑 ⌯ •\n- حمو المرازي الـ شء 💘😂 ⋅""",
+        reply_markup=InlineKeyboardMarkup(
+        [
+            [
+                    InlineKeyboardButton(
+                        " ‹ قناة السورس 💘 ⋅ › ", url=f"https://t.me/WA_AdRenalen"),
+                ],[
+                    InlineKeyboardButton(
+                        "⌯ حمو الـ مرازي 💘 ⋅ ⌯", url=f"https://t.me/H4_il"), 
+                    InlineKeyboardButton(
+                        "⌯ ع ــمر ادرينالين 💘 ⋅ ⌯", url=f"https://t.me/DEV_ADRENALEN"),
+                ],[
+                    InlineKeyboardButton(
+                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"http://t.me/Xx_MUOSIC_BOT?startgroup=new"),
+            ]
+        ]
+         ),
+     )
+
+@app.on_message(filters.command(["سحس","حسين"], ""), group=221212)
+async def huhh(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/f6f7e37a411a115641e56.jpg",
+        caption=f"""• ⌯ 𝐃𝐄𝐕.𝐒𝐎𝐔𝐑𝐂𝐄.𝐎𝐌𝐀𝐑 ⌯ •\n- حسين الـ شء 💘😂 ⋅""",
+        reply_markup=InlineKeyboardMarkup(
+        [
+            [
+                    InlineKeyboardButton(
+                        " ‹ قناة السورس 💘 ⋅ › ", url=f"https://t.me/WA_AdRenalen"),
+                ],[
+                    InlineKeyboardButton(
+                        "⌯ حسين الحوب 💘 ⋅ ⌯", url=f"https://t.me/Hh_Uu_SS_Ee_Ii_Nn"), 
+                    InlineKeyboardButton(
+                        "⌯ ع ــمر ادرينالين 💘 ⋅ ⌯", url=f"https://t.me/DEV_ADRENALEN"),
+                ],[
+                    InlineKeyboardButton(
+                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"http://t.me/Xx_MUOSIC_BOT?startgroup=new"),
+            ]
+        ]
+         ),
+     )
+
+@app.on_message(filters.command(["صولو","سولو"], ""), group=221212)
+async def huhh(client: Client, message: Message):
+    await message.reply_photo( 
+      photo=f"https://telegra.ph/file/81471e464fd78152dbdec.jpg",
+        caption=f"""• ⌯ 𝐃𝐄𝐕.𝐒𝐎𝐔𝐑𝐂𝐄.𝐎𝐌𝐀𝐑 ⌯ •\n- سولو الـ شء 💘😂 ⋅""",
+        reply_markup=InlineKeyboardMarkup(
+        [
+            [
+                    InlineKeyboardButton(
+                        " ‹ قناة السورس 💘 ⋅ › ", url=f"https://t.me/WA_AdRenalen"),
+                ],[
+                    InlineKeyboardButton(
+                        "⌯ سولو الـ تونز 💘 ⋅ ⌯", url=f"https://t.me/HA_RY2"), 
+                    InlineKeyboardButton(
+                        "⌯ ع ــمر ادرينالين 💘 ⋅ ⌯", url=f"https://t.me/DEV_ADRENALEN"),
+                ],[
+                    InlineKeyboardButton(
+                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"http://t.me/Xx_MUOSIC_BOT?startgroup=new"),
+            ]
+        ]
+         ),
+     )
+
+@app.on_message(filters.command(["فرعون","حرب"], ""), group=221212)
+async def huhh(client: Client, message: Message):
+    await message.reply_photo( 
+      photo=f"https://telegra.ph/file/1d76ff4496515c122c251.jpg",
+        caption=f"""• ⌯ 𝐃𝐄𝐕.𝐒𝐎𝐔𝐑𝐂𝐄.𝐎𝐌𝐀𝐑 ⌯ •\n- فرعون الـ شء 💘😂 ⋅""",
+        reply_markup=InlineKeyboardMarkup(
+        [
+            [
+                    InlineKeyboardButton(
+                        " ‹ قناة السورس 💘 ⋅ › ", url=f"https://t.me/WA_AdRenalen"),
+                ],[
+                    InlineKeyboardButton(
+                        "⌯ فـرعون الـ تونز 💘 ⋅ ⌯", url=f"https://t.me/DEV_FAR3ON"), 
+                    InlineKeyboardButton(
+                        "⌯ ع ــمر ادرينالين 💘 ⋅ ⌯", url=f"https://t.me/DEV_ADRENALEN"),
+                ],[
+                    InlineKeyboardButton(
+                        "‹ اضف بوت السورس الي مجموعتك ⚡️🎸 ⋅ ›", url=f"http://t.me/Xx_MUOSIC_BOT?startgroup=new"),
+            ]
+        ]
+         ),
+     )
 ##############################################################
 ##############################################################
 ##############################################################
