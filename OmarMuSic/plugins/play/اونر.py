@@ -25,7 +25,7 @@ from pyrogram.errors import FloodWait
 ##############################################################
 ##############################################################
 ##############################################################
-@app.on_message(filters.command([" السورس ","سورس"], ""), group=221212)
+@app.on_message(filters.command(["سورس","السورس,","مصنع"], ""), group=221212)
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/09d9ee4d37a065e62396b.jpg",
