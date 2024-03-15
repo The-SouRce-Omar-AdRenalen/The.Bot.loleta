@@ -23,6 +23,7 @@ tgcrypto
 unidecode
 numpy
 pytz
+pyromod~=1.5
 dnspython
 youtube-search
 youtube-search-python
