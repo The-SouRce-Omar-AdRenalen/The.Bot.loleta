@@ -167,7 +167,7 @@ async def get_thumb(videoid):
             views = f"• ⌯ Views : {views} ⌯ •"
             duration = f"• ⌯ Duration : {duration} Mins ⌯ •"
             channel = f"Channel : @WA_ADRENALEN"
-           DEV.SOURCE = f"• ⌯ Dev.Source : @DEV_ADRENALEN ⌯ •"
+            DEV.SOURCE = f"• ⌯ Dev.Source : @DEV_ADRENALEN ⌯ •"
             image4.text((670, 450), text=views, fill="white", font=font4, align="left")
             image4.text(
                 (670, 500), text=duration, fill="white", font=font4, align="left"
