@@ -1,7 +1,13 @@
-import telebot
-import requests
-import time,datetime
-from telebot import types
+import os
+from pyrogram import Client, filters
+from pyrogram.types import Message, User
+from pyrogram import Client, emoji 
+from OmarMuSic import app
+from strings.filters import command
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, ChatPermissions
+from OmarMuSic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
+from pyrogram import filters
+
 abd = types.InlineKeyboardMarkup()
 abdd = types.InlineKeyboardButton(text = "$ch.",url="t.me/WA_ADRENALEN")
 abd.add(abdd)
