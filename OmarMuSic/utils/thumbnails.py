@@ -11,6 +11,7 @@ from youtubesearchpython.__future__ import VideosSearch
 from OmarMuSic import app
 from config import YOUTUBE_IMG_URL
 
+
 def make_col():
     return (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 
