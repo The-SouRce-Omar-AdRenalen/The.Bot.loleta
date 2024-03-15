@@ -1,6 +1,6 @@
 import re
 from os import getenv
-
+from OWNER import BOT_TOKEN, OWNER, OWNER_NAME, DATABASE, CHANNEL, GROUP, LOGS, VIDEO
 from dotenv import load_dotenv
 from pyrogram import filters
 
