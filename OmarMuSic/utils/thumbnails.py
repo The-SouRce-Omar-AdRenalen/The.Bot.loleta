@@ -23,14 +23,11 @@
 import os
 import re
 import textwrap
-
 import aiofiles
 import aiohttp
 import numpy as np
 from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 from youtubesearchpython.__future__ import VideosSearch
-
-from config import FAILED
 from OmarMuSic import BOT_ID, LOGGER, app
 
 
