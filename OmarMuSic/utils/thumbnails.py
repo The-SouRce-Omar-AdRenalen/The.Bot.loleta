@@ -49,10 +49,6 @@ async def gen_thumb(videoid, photo):
             except:
                 channel = "Unknown Channel"
                 
-            try:
-                Dev.Source = result["Dev.Source"]["name"]
-            except:
-                Dev.Source = "Unknown Dev.Source"
 
         async with aiohttp.ClientSession() as session:
             async with session.get(thumbnail) as resp:
@@ -136,12 +132,7 @@ async def gen_thumb(videoid, photo):
             font=arial,
         )
         
-        draw.text(
-            (600, 550),
-            f"Dev.Source : @DEV_ADRENALEN",
-            (255, 255, 255),
-            font=arial,
-        )
+        
         try:
             os.remove(f"{photo}")
             os.remove(f"thumb{videoid}.png")
