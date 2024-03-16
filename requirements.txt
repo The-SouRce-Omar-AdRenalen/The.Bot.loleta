@@ -1,3 +1,4 @@
+googletrans
 aiofiles
 aiohttp
 asyncio
@@ -23,10 +24,12 @@ tgcrypto
 unidecode
 numpy
 pytz
+googletrans
 pyromod~=1.5
 googletrans
 dnspython
 youtube-search
+pip install googletrans==4.0.0-rc1
 youtube-search-python
 git+https://github.com/yt-dlp/yt-dlp@master
 git+https://github.com/alexmercerind/youtube-search-python@main
