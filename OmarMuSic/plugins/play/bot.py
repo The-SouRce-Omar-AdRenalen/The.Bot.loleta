@@ -12,9 +12,8 @@ from OmarMuSic import app
 from config import *
 
 bot_name = {}
-botname = {}
 
-name = "لوليتا"
+name = "عمر"
 
 @app.on_message(filters.regex("تعيين اسم البوت")& filters.private & SUDOERS, group=7113)
 async def set_bot_name(client, message):
@@ -53,6 +52,7 @@ async def caesar_bot(client, message):
         text=f"**[{bar}](https://t.me/{bot_username}?startgroup=True)**",
         disable_web_page_preview=True,
         reply_markup=keyboard
+    )
     )
     
 #𝙲𝙷.𝚂𝙾𝚄𝚁𝙲𝙴 : @WA_ADRENALEN
