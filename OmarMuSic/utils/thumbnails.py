@@ -49,7 +49,7 @@ async def gen_thumb(videoid, photo):
             except:
                 channel = "Unknown Channel"
                 
-                try:
+            try:
                 Dev.Source = result["Dev.Source"]["name"]
             except:
                 Dev.Source = "Unknown Dev.Source"
