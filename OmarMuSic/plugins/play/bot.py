@@ -53,7 +53,6 @@ async def caesar_bot(client, message):
         disable_web_page_preview=True,
         reply_markup=keyboard
     )
-    )
     
 #𝙲𝙷.𝚂𝙾𝚄𝚁𝙲𝙴 : @WA_ADRENALEN
 #𝙳𝙴𝚅 𝙰𝙳𝚁𝙴𝙽𝙰𝙻𝙴𝙽 : @DEV_ADRENALEN
