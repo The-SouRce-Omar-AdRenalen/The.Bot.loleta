@@ -94,11 +94,11 @@ async def brah2(client, message):
             await message.reply(f" تم إنهاء مكالمة الفيديو مدتها {day[0]} يوم")
 @app.on_message(filters.video_chat_members_invited)
 async def fuckoff(client, message):
-           text = f"• قــــام ← {message.from_user.mention}"
+           text = f"- قام ›› ⦗ {message.from_user.mention} ⦘ 😂💘 ⋅"
            x = 0
            for user in message.video_chat_members_invited.users:
              try:
-               text += f"\n• بــدعـــوة  ⦗ {user.mention} ⦘"
+               text += f"\n- بدعوة ›› ⦗ {user.mention} ⦘ 😂💘 ⋅"
                x += 1
              except Exception:
                pass
