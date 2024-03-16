@@ -45,7 +45,16 @@ async def instatus(app, message):
 -᚜ - عدد الـ حسبات الـ محذوفه » : {deleted_acc} 💘 ⋅ 
 -᚜ - عدد الـ مطرودين » : {banned} 💘 ⋅
 -᚜ - عدد الاغنية الي موثقين هنا : {premium_acc} 😂💘 ⋅
-""")
+""",     
+    reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        chat_name, url=f"https://t.me/{message.chat.username}")
+                ],
+            ]
+        ),
+    )
     else:
         sent_message = await message.reply_text("ONLY ADMINS CAN USE THIS !")
         await sleep(5)
