@@ -13,7 +13,7 @@ from OmarMuSic.core.call import Mody
 from OmarMuSic.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError,AlreadyJoinedError)
 
-@app.on_message(filters.regex("^مين في الكول$|^مين ف الكول$|^مين في كول$"))
+@app.on_message(filters.regex("^مين في الكول$|^مين ف الكول$|^الكول$"))
 async def strcall(client, message):
     assistant = await group_assistant(Mody,message.chat.id)
     try:
