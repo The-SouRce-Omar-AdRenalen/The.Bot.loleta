@@ -24,9 +24,9 @@ async def strcall(client, message):
         for participant in participants:
             info = participant
             if info.muted == False:
-                mut="بيتكلم 🗣 :"
+                mut="بيتكلم 🗣"
             else:
-                mut="ساكت 🔕 ⋅"
+                mut="ساكت 🔕"
             user = await client.get_users(participant.user_id)
             k +=1
             text +=f"{k} : {user.mention} : {mut}\n"
@@ -48,7 +48,7 @@ async def strcall(client, message):
             if info.muted == False:
                 mut="يتحدث 🗣"
             else:
-                mut="ساكت 🔕 "
+                mut="ساكت 🔕"
             user = await client.get_users(participant.user_id)
             k +=1
             text +=f"{k} : {user.mention} : {mut}\n"
