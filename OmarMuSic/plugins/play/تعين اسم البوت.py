@@ -1,6 +1,6 @@
 import asyncio
 import random
-from OmarMuSic import SUDOERS
+from OmarMuSic.music import SUDOERS
 from pyrogram.types import (Message,InlineKeyboardButton,InlineKeyboardMarkup,CallbackQuery,ChatPrivileges)
 from pyrogram import filters, Client
 from OmarMuSic import app
